@@ -1,5 +1,4 @@
     module jes_ecommerce::ecommerce; 
-
     use sui::tx_context:: sender;
     use sui::coin::{Self, Coin};
     use sui::sui::SUI;
@@ -93,7 +92,7 @@
 
     public struct Cart has key, store {
         id: UID,
-        user_address: address, // Changed from user_id: ID
+        user_address: address,
     }
 
     public struct CartItem has key, store {
