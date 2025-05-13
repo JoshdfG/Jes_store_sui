@@ -111,7 +111,6 @@ fun test_create_multiple_stores() {
         assert!(get_owner_address(&store1) == SELLER, 0);
         assert!(get_owner_address(&store2) == SELLER, 0);
         
-        // Use public functions instead of direct field access
         // assert!(factory::get_store_name(&store1) == string::utf8(b"First Store"), 0);
         // assert!(factory::get_store_name(&store2) == string::utf8(b"Second Store"), 0);
         
