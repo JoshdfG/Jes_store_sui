@@ -18,8 +18,8 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-jes_ecommerce = "0x0"
-ecommerce_factory="0x1"
+jes_ecommerce = "0xf956d33ce607327f52fb77d5d4f100a87fd6c994b4f3752481ff0513869b7975"
+ecommerce_factory="0xf956d33ce607327f52fb77d5d4f100a87fd6c994b4f3752481ff0513869b7975"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"

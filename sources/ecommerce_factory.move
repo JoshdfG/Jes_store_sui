@@ -58,6 +58,7 @@
         transfer::share_object(factory);
     }
 
+    //USED TO TEST IN THE CHILD CONTRACT TEST
     public entry fun create_store(
         factory: &mut StoreFactory,
         _platform_registry: &ecommerce::PlatformRegistry,

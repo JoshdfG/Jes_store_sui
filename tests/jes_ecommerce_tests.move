@@ -20,7 +20,6 @@ use jes_ecommerce::ecommerce;
     use ecommerce_factory::factory::{
         StoreFactory,
         create_initial_store,
-        create_store,
         get_all_stores
     };
     use sui::test_scenario::{Self, Scenario};
